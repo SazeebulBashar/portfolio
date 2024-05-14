@@ -1,0 +1,86 @@
+{% load static %}
+<header id="site_header" class="header mobile-menu-hide">
+    <div class="">
+        <div class="header-photo">
+            <img src="{% static 'img/main_photo.png' %}" alt="Sazeebul Bashar" />
+        </div>
+        <div class="header-titles">
+            <h2>Sazeebul Bashar</h2>
+            <h4>Software Engineer</h4>
+        </div>
+    </div>
+
+    <ul class="main-menu">
+        <li class="active">
+            <a href="#home" class="nav-anim">
+                <span class="menu-icon lnr lnr-home"></span>
+                <span class="link-text">Home</span>
+            </a>
+        </li>
+        <li>
+            <a href="#about-me" class="nav-anim">
+                <span class="menu-icon lnr lnr-user"></span>
+                <span class="link-text">About Me</span>
+            </a>
+        </li>
+        <li>
+            <a href="#resume" class="nav-anim">
+                <span
+                    class="menu-icon lnr lnr-graduation-hat"
+                ></span>
+                <span class="link-text">Resume</span>
+            </a>
+        </li>
+        <li>
+            <a href="#portfolio" class="nav-anim">
+                <span
+                    class="menu-icon lnr lnr-briefcase"
+                ></span>
+                <span class="link-text">Portfolio</span>
+            </a>
+        </li>
+         {% comment %} <li>
+            <a href="#blog" class="nav-anim">
+                <span class="menu-icon lnr lnr-book"></span>
+                <span class="link-text">Blog</span>
+            </a>
+        </li>  {% endcomment %}
+        <li>
+            <a href="#contact" class="nav-anim">
+                <span class="menu-icon lnr lnr-envelope"></span>
+                <span class="link-text">Contact</span>
+            </a>
+        </li>
+
+    </ul>
+
+    <div class="social-links">
+        <ul>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+                <a href="https://leetcode.com/sazeebul/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                    {% comment %} <img class="leetcode" src="{% static 'icons/leetcode.png' %}" alt=""> {% endcomment %}
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-kaggle"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/SazeebulBashar" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header-buttons">
+        <a href="https://drive.google.com/file/d/1kkPD_L5Isco8BOgvcw2a1dCYhmK7WVkH/view?usp=sharing" target="_blank" class="btn btn-primary">Download CV</a>
+    </div>
+
+</header>
