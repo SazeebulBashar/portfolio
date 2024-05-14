@@ -1,5 +1,5 @@
-{% load static %}
 <section data-id="portfolio" class="animated-section">
+    {% load static %}
     <div class="page-title">
         <h2>Portfolio</h2>
     </div>
@@ -52,11 +52,9 @@
                                 <img src="{% static 'img/portfolio/happyLaundry.png' %}"
                                     alt="Media Project 2" title="Happy Laundry" />
 
-                                {% comment %} {{-- <a href="{{url('http://happylaundry.infinityfreeapp.com/index.php')}}" class="ajax-page-load" target="_blank"></a> --}} {% endcomment %}
                                 <a href="http://happylaundry.infinityfreeapp.com/index.php" target="_blank" title="Happy Laundry"></a>
                             </div>
 
-                            {% comment %} {{-- <i class="far fa-file-alt"></i> --}} {% endcomment %}
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             <h4 class="name">
                                 Happy Laundry
@@ -69,7 +67,6 @@
                             <div class="portfolio-item-img">
                                 <img src="{% static 'img/portfolio/weatherApp.png' %}"
                                     alt="Mockup Design 1" title="Weather App" />
-                                {% comment %} {{-- <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a> --}} {% endcomment %}
                                 <a title="Weather App" href="https://sazeebulbashar.github.io/weather-app" target="_blank"></a>
                             </div>
 
@@ -90,7 +87,6 @@
                                 <a href="https://github.com/SazeebulBashar/fake-news-detector" class="lightbox mfp-iframe" target="_blank" title="Fake News Detector"></a>
                             </div>
 
-                            {% comment %} {{-- <i class="fas fa-video"></i> --}} {% endcomment %}
                             <i class="fab fa-github"></i>
                             <h4 class="name">
                                 Fake News Detector
