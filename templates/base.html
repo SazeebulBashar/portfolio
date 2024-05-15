@@ -18,7 +18,7 @@
             content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"
         />
         <meta name="author" content="lol" />
-        <link rel="shortcut icon" href="{% static 'favicon2.png' %}" />
+        <link rel="shortcut icon" href="{% static 'favicon.ico' %}" />
 
         <link rel="stylesheet" href="{% static 'css/reset.css' %}" type="text/css" />
         <link
@@ -52,11 +52,11 @@
         {% comment %} {{-- Animated Background --}} {% endcomment %}
 
         {% comment %} {{-- Loading animation --}} {% endcomment %}
-        <div class="preloader">
+        {% comment %} <div class="preloader">
             <div class="preloader-animation">
                 <div class="preloader-spinner"></div>
             </div>
-        </div>
+        </div> {% endcomment %}
         {% comment %} {{-- Loading animation --}} {% endcomment %}
 
         <div class="page">
@@ -98,22 +98,22 @@
         ></script>
 
 
-        <script src="{% static 'js' %}/jquery-2.1.3.min.js"></script>
-        <script src="{% static 'js' %}/modernizr.custom.js"></script>
-        <script src="{% static 'js' %}/animating.js"></script>
+        <script src="{% static 'js/jquery-2.1.3.min.js' %}"></script>
+        <script src="{% static 'js/modernizr.custom.js' %}"></script>
+        <script src="{% static 'js/animating.js'  %}"></script>
 
-        <script src="{% static 'js' %}/imagesloaded.pkgd.min.js"></script>
-        <script src="../../../../../www.google.com/recaptcha/api.js"></script>
+        <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
+        <script src="../../../../../www.google.com/recaptcha/api.js' %}"></script>
 
-        <script src="{% static 'js' %}/perfect-scrollbar.min.js"></script>
-        <script src="{% static 'js' %}/jquery.shuffle.min.js"></script>
-        <script src="{% static 'js' %}/masonry.pkgd.min.js"></script>
-        <script src="{% static 'js' %}/owl.carousel.min.js"></script>
+        <script src="{% static 'js/perfect-scrollbar.min.js' %}"></script>
+        <script src="{% static 'js/jquery.shuffle.min.js' %}"></script>
+        <script src="{% static 'js/masonry.pkgd.min.js' %}"></script>
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>
         {% comment %} use Typing Effect {% endcomment %}
-        <script src="{% static 'js' %}/jquery.magnific-popup.min.js"></script>
+        <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
 
-        <script src="{% static 'js' %}/validator.js"></script>
-        <script src="{% static 'js' %}/main.js"></script>
+        <script src="{% static 'js/validator.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
         {{-- <script
             defer
             src="../../../../../static.cloudflareinsights.com/beacon.min.js"
