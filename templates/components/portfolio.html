@@ -19,7 +19,9 @@
                         <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_WD">Web Development</a>
                         </li>
-                        <li>
+
+
+                        {% comment %} <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
                         </li>
                         <li>
@@ -27,12 +29,14 @@
                         </li>
                         <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
-                        </li>
+                        </li> {% endcomment %}
+
                     </ul>
 
                     <!-- Portfolio Grid -->
                     <div class="portfolio-grid three-columns">
-                        <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+
+                        {% comment %} <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                             <div class="portfolio-item-img">
                                 <img src="{% static 'img/portfolio/1.jpg' %}"
                                     alt="SoundCloud Audio" title="" />
@@ -45,17 +49,18 @@
                                 SoundCloud Audio
                             </h4>
                             <span class="category">SoundCloud</span>
-                        </figure>
+                        </figure> {% endcomment %}
+
 
                         <figure class="item standard" data-groups='["category_all", "category_WD"]'>
                             <div class="portfolio-item-img">
                                 <img src="{% static 'img/portfolio/happyLaundry.png' %}"
                                     alt="Media Project 2" title="Happy Laundry" />
 
-                                <a href="http://happylaundry.infinityfreeapp.com/index.php" target="_blank" title="Happy Laundry"></a>
+                                <a href="https://github.com/SazeebulBashar/Laundry-Management" target="_blank" title="Happy Laundry"></a>
                             </div>
 
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <i class="fa-brands fa-github"></i>
                             <h4 class="name">
                                 Happy Laundry
                             </h4>
@@ -111,12 +116,12 @@
 
                         <figure class="item standard" data-groups='["category_all", "category_ML"]'>
                             <div class="portfolio-item-img">
-                                <img src="{% static 'img/portfolio/4.jpg' %}"
+                                <img src="{% static 'img/portfolio/author_detection.png' %}"
                                     alt="Media Project 1" />
                                 <a href="portfolio-1.html" class="ajax-page-load" title="Author Detection"></a>
                             </div>
 
-                            <i class="far fa-file-alt"></i>
+                            <i class="fa-brands fa-github"></i>
                             <h4 class="name">
                                 Author Detection
                             </h4>
@@ -125,7 +130,7 @@
 
                         
 
-                        <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
+                        {% comment %} <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
                             <div class="portfolio-item-img">
                                 <img src="{% static 'img/portfolio/6.jpg' %}"
                                     alt="YouTube Video 1" title="" />
@@ -137,7 +142,7 @@
                                 YouTube Video 1
                             </h4>
                             <span class="category">YouTube Videos</span>
-                        </figure>
+                        </figure> {% endcomment %}
                     </div>
                 </div>
                 <!-- End of Portfolio Content -->
